@@ -1,6 +1,6 @@
 <body></body>
 <script>
-var bs=decodeURI(location.search.substring(1));
+var bs="data:text/html;charset=utf-8;base64,"+location.search.substring(1);
 var fe=document.createElement("iframe");
 fe.setAttribute("overflow","hidden");
 fe.setAttribute("width","100%");
